@@ -1,0 +1,14 @@
+#features{
+    padding: 120px;
+    .features_container{
+        max-width: 1140px;
+        margin: auto;
+        .features_content{
+            .features_title{
+                width: 500px;
+                margin: 50px auto;
+                text-align: center;
+            }
+        }
+    }
+}

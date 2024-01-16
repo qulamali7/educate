@@ -1,0 +1,22 @@
+#courses{
+    background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png.webp");
+    background-size: cover;
+    min-height: 100vh;
+    .courses_container{
+        max-width: 1140px;
+        margin: auto;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        .courses_content{
+            h1{
+                font-size: 42px;
+                color: #000000;
+            }
+            p{
+                font-size: 16px;
+                color: #777777;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.features_cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    .features_card{
+        width: 32%;
+        padding: 50px 40px;
+        background: #f1f9ff;
+        margin-bottom: 30px;
+        .features_card_content{
+            .logo{
+                i{
+
+                }
+            }
+            .text{
+                h4{
+                    font-size: 21px;
+                    color: #222222;
+                }
+                p{
+                    font-size: 16px;
+                    color: #777777;
+                }
+            }
+        }
+    }
+}
+.search_sort{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
